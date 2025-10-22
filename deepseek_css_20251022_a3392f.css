@@ -1,0 +1,197 @@
+/* ===== BLOG COMPONENTS ===== */
+
+/* Blog Hero */
+.blog-hero {
+  background: var(--gradient-primary);
+  color: var(--bg-white);
+  padding: 140px 0 80px;
+}
+
+/* Blog Cards */
+.blog-card {
+  border: none;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-normal);
+  margin-bottom: var(--spacing-lg);
+  height: 100%;
+  overflow: hidden;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.blog-category {
+  background: var(--primary-color);
+  color: var(--bg-white);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: var(--spacing-md);
+}
+
+.read-time {
+  color: var(--text-light);
+  font-size: var(--font-size-sm);
+}
+
+/* Blog Post Content */
+.blog-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-meta {
+  color: var(--text-light);
+  font-size: var(--font-size-sm);
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Error Items for Medical Billing Post */
+.error-item {
+  border-left: 4px solid var(--primary-color);
+  padding-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+  background: var(--bg-light);
+  padding: var(--spacing-lg);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+}
+
+/* Guide Steps for Insurance Post */
+.guide-step {
+  border-left: 4px solid var(--primary-color);
+  padding-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+  background: var(--bg-light);
+  padding: var(--spacing-lg);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+}
+
+/* Denial Reasons */
+.denial-reason {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Strategy Cards for Cost Saving */
+.strategy-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--success-color);
+}
+
+.savings-badge {
+  background: var(--success-color);
+  color: var(--bg-white);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+}
+
+/* Right Cards for Patient Rights */
+.right-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--secondary-color);
+}
+
+.protection-badge {
+  background: var(--secondary-color);
+  color: var(--bg-white);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+}
+
+/* AI Applications */
+.ai-application {
+  background: var(--bg-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid #06b6d4;
+}
+
+.tech-badge {
+  background: #06b6d4;
+  color: var(--bg-white);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+}
+
+/* Stat Box */
+.stat-box {
+  background: var(--gradient-primary);
+  color: var(--bg-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  margin: var(--spacing-xl) 0;
+  text-align: center;
+}
+
+/* Alert Boxes */
+.alert {
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+  border: none;
+}
+
+.alert-info {
+  background: #dbeafe;
+  color: var(--primary-dark);
+}
+
+.alert-success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.alert-warning {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.alert-danger {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Tip Box */
+.tip-box {
+  background: #f0f9ff;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+  border-left: 4px solid var(--primary-color);
+}
+
+/* Law Highlight */
+.law-highlight {
+  background: #f0f9ff;
+  border: 2px solid #0ea5e9;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
